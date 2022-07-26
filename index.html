@@ -5,8 +5,166 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://kit.fontawesome.com/98f3a36dcd.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>hello!</h1>
+    <header id="home">
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nameContainer">
+                <h1>Kaitlyn Wickson</h1>
+                <h3>Toronto based web developer</h2>
+                <a href="contact" class="button">get in touch</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <div class="wrapper">
+                <div class="picContainer"></div>
+                <div class="aboutMe">
+                    <h2>about me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos illum, officia earum quisquam id repudiandae voluptatem accusamus hic architecto corrupti fugiat asperiores, veniam sequi, autem est nostrum recusandae atque.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="wrapper">
+                <h2>skills</h2>
+                <ul class="skillList">
+                    <li>
+                        <i class="devicon-html5-plain"></i>
+                        <p>HTML</p>
+                    </li>
+                    <li>
+                        <i class="devicon-css3-plain"></i>
+                        <p>CSS</p>
+                    </li>
+                    <li>
+                        <i class="devicon-sass-original"></i>
+                        <p>SASS</p>
+                    </li>
+                    <li>
+                        <i class="devicon-javascript-plain"></i>
+                        <p>Javascript</p>
+                    </li>
+                    <li>
+                        <i class="devicon-react-original"></i>
+                        <p>REACT</p>
+                    </li>
+                    <li>
+                        <i class="devicon-github-original"></i>
+                        <p>gitHub/git</p>
+                    </li>
+                    <li>
+                        <i class="devicon-firebase-plain"></i>
+                        <p>Firebase</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="wrapper">
+                <h2>projects</h2>
+                <div class="projectContainer project1" >
+                    <div class="projectImg projectImg1"></div>
+                    <div class="projectDis">
+                        <h4>Project Title</h4>
+                        <ul class="skillsUsed">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>React</li>
+                        </ul>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis recusandae consequuntur error sunt hic illum aut eaque in impedit ipsum deserunt assumenda doloribus libero sapiente suscipit, cum odio optio dolores.</p>
+                        <a href="#" class="button">View Live</a>
+                        <a href="#" class="button">View Code</a>
+                    </div>
+                </div>
+
+                <div class="projectContainer project2">
+                    <div class="projectImg projectImg2"></div>
+                    <div class="projectDis">
+                        <h4>Project Title</h4>
+                        <ul class="skillsUsed">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>React</li>
+                        </ul>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis recusandae consequuntur error sunt hic illum aut eaque in impedit ipsum deserunt assumenda doloribus libero sapiente suscipit, cum odio optio dolores.</p>
+                        <a href="#" class="button">View Live</a>
+                        <a href="#" class="button">View Code</a>
+                    </div>
+                </div>
+
+                <div class="projectContainer project3">
+                    <div class="projectImg projectImg3"></div>
+                    <div class="projectDis">
+                        <h4>Project Title</h4>
+                        <ul class="skillsUsed">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>React</li>
+                        </ul>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis recusandae consequuntur error sunt hic illum aut eaque in impedit ipsum deserunt assumenda doloribus libero sapiente suscipit, cum odio optio dolores.</p>
+                        <a href="#" class="button">View Live</a>
+                        <a href="#" class="button">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <h2>get in touch</h2>
+                <ul class="socials">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="devicon-github-original"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis et quae ipsum incidunt harum temporibus ipsa quod non dolorum repellat, facere molestias. Accusantium, iure consequatur dolore praesentium quae ex a!</p>
+                <form action="">
+                    <label for="userName">Name</label>
+                    <input type="text" id="userName">
+                    <label for="userEmail">Email Address</label>
+                    <input type="email" id="userEmail">
+                    <label for="userMessage">Message</label>
+                    <textarea id="userMessage" cols="30" rows="10"></textarea>
+                    <button class="button">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
-</html>
+</html> 
