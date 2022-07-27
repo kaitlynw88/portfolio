@@ -1,0 +1,21 @@
+header{
+    background-color:#424B6D;
+    color:#F2F4F5;
+    a{
+        color:inherit
+    }
+}
+
+.navBar ul{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+
+.nameContainer{
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

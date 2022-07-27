@@ -3,14 +3,39 @@ body{
     font-size: 125%;
 }
 
+.wrapper{
+    width:90%;
+    max-width: 1280px;
+    margin:0 auto;
+}
+
 h1, h2, h3{
     font-family: 'Playfair Display', serif;
     margin:0;
     padding:0;
+}
+h1{
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    background-color:#EEAF98;
+    color:#14070E;
+    text-transform: lowercase;
+    padding:10px 25px;
+    margin-top: 25px;
 }

@@ -207,14 +207,75 @@ body {
   font-size: 125%;
 }
 
+.wrapper {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 h1, h2, h3 {
   font-family: "Playfair Display", serif;
   margin: 0;
   padding: 0;
 }
 
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: #EEAF98;
+  color: #14070E;
+  text-transform: lowercase;
+  padding: 10px 25px;
+  margin-top: 25px;
+}
+
+header {
+  background-color: #424B6D;
+  color: #F2F4F5;
+}
+header a {
+  color: inherit;
+}
+
+.navBar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 25px;
+}
+
+.nameContainer {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
