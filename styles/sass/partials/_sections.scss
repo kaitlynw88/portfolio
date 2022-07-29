@@ -17,15 +17,14 @@
     padding-bottom: 50px;
     h2{
         color: #9d254e;
+        margin-bottom: 15px;
     }
 }
 
 .skills{
-    // background-color: #8e8d9b;
     background-color: #e2d167;
     h2{
         text-align: center;
-        // margin:0 0 75px;
         padding:75px 0 50px;
     }
 }
@@ -35,13 +34,16 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 100px;
+    flex-wrap: wrap;
     li{
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
+        min-width: 125px;
         i{
             font-size: 3rem;
+            
         }
     }
 }
@@ -54,7 +56,7 @@
     align-items: center;
     h2{
         color:#9d254e;
-        padding:50px 0;
+        padding:50px 0 0;
     }
 }
 .projectContainer{
@@ -75,7 +77,6 @@
         color: #9d254e;
     }
 }
-
 
 .project2{
     flex-direction: row-reverse;
@@ -112,22 +113,22 @@
     }
 }
 
-
 .socials{
     display: flex;
     justify-content: space-between;
-    width:20%;
-    padding-bottom: 15px;
-    position: relative;
+    width:30%;
+    height: 50px;
+    max-height: 50px;
+    text-align: center;
     i{
-    color: #EEAF98;
+    color: #c9760a;
     font-size: 2rem;
-    position: absolute;
-    top:-60px;
+    width:50px;
     transition-duration: 0.3s;
-    &:hover, &:focus{
-        font-size: 3rem;
-    }
+    &:hover, &:focus {
+            font-size: 3rem;
+            z-index:10;
+        }
     }
 }
 
@@ -142,6 +143,7 @@ form{
     }
     label{
         align-self: flex-start;
+        margin-top: 25px;
     }
     .button{
         margin-bottom: 100px;
@@ -149,7 +151,6 @@ form{
 }
 
 footer{
-    // background-color: #251b4a;
     background-color: #1a0f26;
     text-align: center;
     padding:25px 0;
