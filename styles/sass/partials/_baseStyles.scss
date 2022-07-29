@@ -16,11 +16,20 @@ h1, h2, h3{
     text-transform: lowercase;
 }
 h1{
-    font-size: 5rem;
+    font-size: 7rem;
+    color:white;
+    // color:#e2d167;
+    // color:#888796;
 }
 
 h2 {
     font-size: 3rem;
+    margin:0;
+}
+h3{
+    font-size: 3rem;
+    color:white;
+    // color: #e2d167;
 }
 
 ul {
@@ -31,15 +40,37 @@ ul {
 
 a{
     text-decoration: none;
+    font-size: 2rem;
 }
 p{
     color: #2E3437;
+    margin:0;
+}
+
+button{
+    border:none
 }
 
 .button{
-    background-color:#EEAF98;
+    background-color:#c9760a;
     color:#2E3437;
     text-transform: lowercase;
-    padding:10px 25px;
+    padding:10px 30px;
     margin-top: 25px;
+    display:inline-block;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+    &:hover, &:focus{
+        // box-shadow:5px 5px #4a2b24;
+        box-shadow: 5px 5px #2d1e20
+    }
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.attribution{
+    font-size: 0.8rem;
 }

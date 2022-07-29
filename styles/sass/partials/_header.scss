@@ -1,15 +1,19 @@
 header{
-    background-color:#424B6D;
-    color:#F2F4F5;
-    a{
-        color:inherit
-    }
+    background-image: url(../assets/—Pngtree—bokeh\ lights\ background_546902.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navBar ul{
     display:flex;
     justify-content: space-evenly;
     padding-top: 25px;
+    a {
+        color: #e2d167;
+        &:hover, &:focus {
+                text-decoration: underline;
+            }
+        }
 }
 
 .nameContainer{
