@@ -536,6 +536,7 @@ form label {
   -ms-flex-item-align: start;
       align-self: flex-start;
   margin-top: 25px;
+  margin-bottom: 8px;
 }
 form .button {
   margin-bottom: 100px;
