@@ -186,13 +186,13 @@
                     </li>
                 </ul>
                 <p>Do you have some questions about my code, or want to chat about any cool books you're into? Feel free to shoot me a message here.  I'm always up for trying a new coffee spot.</p>
-                <form name="contact" data-netlify="true">
+                <form name="contact" method="POST" data-netlify="true">
                     <label for="userName">Name</label>
-                    <input type="text" id="userName">
+                    <input type="text" name="name" id="userName">
                     <label for="userEmail">Email Address</label>
-                    <input type="email" id="userEmail">
+                    <input type="email" name="email" id="userEmail">
                     <label for="userMessage">Message</label>
-                    <textarea id="userMessage" cols="30" rows="10"></textarea>
+                    <textarea name="message" id="userMessage" cols="30" rows="10"></textarea>
                     <button class="button">Submit</button>
                 </form>
             </div>
