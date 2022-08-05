@@ -19,6 +19,9 @@
         color: #9d254e;
         margin-bottom: 15px;
     }
+    p:first-of-type{
+        margin-bottom: 20px;
+    }
 }
 
 .skills{
@@ -116,7 +119,7 @@
 .socials{
     display: flex;
     justify-content: space-between;
-    width:30%;
+    width:40%;
     height: 50px;
     max-height: 50px;
     text-align: center;

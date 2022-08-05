@@ -7,13 +7,19 @@
         justify-content: center;
         align-items: center;
     }
+    .skillList li{
+        margin-bottom: 25px;
+    }
         a,
         i {
             font-size: 1.25rem;
         }
-    
-    form {
-        width: 80%;
+        
+        form {
+            width: 80%;
+        }
+    .socials{
+        width:60%;
     }
 }
 @media(max-width:500px){
@@ -23,6 +29,9 @@
     a, i{
         font-size: 1rem;
     }
+    .skillList li{
+        min-width: none;
+    }
 
     .contact .wrapper p{
         width:100%;
@@ -31,7 +40,7 @@
         width:100%;
     }
 
-    .socials{
-        width:100%;
-    }
+        .socials {
+            width: 90%;
+        }
 }

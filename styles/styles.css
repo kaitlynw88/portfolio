@@ -280,6 +280,8 @@ img {
 
 .attribution {
   font-size: 0.8rem;
+  opacity: 20%;
+  color: white;
 }
 
 header {
@@ -350,6 +352,9 @@ header {
 .aboutMe h2 {
   color: #9d254e;
   margin-bottom: 15px;
+}
+.aboutMe p:first-of-type {
+  margin-bottom: 20px;
 }
 
 .skills {
@@ -496,7 +501,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 30%;
+  width: 40%;
   height: 50px;
   max-height: 50px;
   text-align: center;
@@ -566,12 +571,18 @@ footer p {
         -ms-flex-align: center;
             align-items: center;
   }
+  .skillList li {
+    margin-bottom: 25px;
+  }
   a,
 i {
     font-size: 1.25rem;
   }
   form {
     width: 80%;
+  }
+  .socials {
+    width: 60%;
   }
 }
 @media (max-width: 500px) {
@@ -581,6 +592,9 @@ i {
   a, i {
     font-size: 1rem;
   }
+  .skillList li {
+    min-width: none;
+  }
   .contact .wrapper p {
     width: 100%;
   }
@@ -588,6 +602,6 @@ i {
     width: 100%;
   }
   .socials {
-    width: 100%;
+    width: 90%;
   }
 }
