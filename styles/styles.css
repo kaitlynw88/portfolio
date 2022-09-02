@@ -391,7 +391,6 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-width: 125px;
 }
 .skillList li i {
   font-size: 3rem;
@@ -425,14 +424,15 @@ header {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
   padding: 25px 0;
+  margin-bottom: 30px;
 }
 
 .skillsUsed {
@@ -446,7 +446,7 @@ header {
   color: #9d254e;
 }
 
-.project2 {
+.project2, .project4 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
@@ -455,10 +455,18 @@ header {
   border-bottom: 4px solid white;
 }
 
+.project4 {
+  border-top: 0;
+}
+
 .projectImg, .projectDis {
-  width: calc(48% - 50px);
+  width: calc(50% - 30px);
   min-width: 300px;
-  padding: 0 25px;
+}
+
+.projectImg img {
+  border-radius: 50px;
+  border: 20px solid #c9760a;
 }
 
 .buttonContainer .button {
@@ -487,7 +495,7 @@ header {
 }
 .contact .wrapper h2 {
   padding: 50px 0 25px;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
 .contact .wrapper p {
   width: 60%;
@@ -571,8 +579,12 @@ footer p {
         -ms-flex-align: center;
             align-items: center;
   }
+  .aboutMe {
+    width: 80%;
+  }
   .skillList li {
     margin-bottom: 25px;
+    width: 25%;
   }
   a,
 i {
@@ -584,6 +596,25 @@ i {
   .socials {
     width: 60%;
   }
+  .projectContainer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .projectImg, .projectDis {
+    width: 80%;
+  }
+  h4 {
+    text-align: center;
+  }
+  .projectDis p {
+    text-align: center;
+  }
+  .skillsUsed {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 @media (max-width: 500px) {
   h1 {
@@ -593,15 +624,21 @@ i {
     font-size: 1rem;
   }
   .skillList li {
-    min-width: none;
+    width: 33.3333333333%;
   }
   .contact .wrapper p {
-    width: 100%;
+    width: 95%;
   }
   form {
-    width: 100%;
+    width: 95%;
+  }
+  .projectImg, .projectDis {
+    width: 95%;
+  }
+  .aboutMe {
+    width: 95%;
   }
   .socials {
-    width: 90%;
+    width: 85%;
   }
 }
