@@ -10,8 +10,9 @@ header{
     padding-top: 25px;
     a {
         color: #e2d167;
+        transition: border;
         &:hover, &:focus {
-                text-decoration: underline;
+                border-bottom:2px solid #e2d167;
             }
         }
 }

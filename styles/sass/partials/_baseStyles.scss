@@ -52,15 +52,17 @@ button{
 
 .button{
     background-color:#c9760a;
-    color:#2E3437;
+    color:#1a0f26;
     text-transform: lowercase;
     padding:10px 25px;
     margin-top: 25px;
     display:inline-block;
     border-radius: 4px;
-    transition-duration: 0.2s;
+    transition: background-color 0.3s;
     &:hover, &:focus{
-        box-shadow:5px 5px #1a0f26;;
+        background-color:#1a0f26;
+        // background-position: 0 100%;
+        color:#c9760a
     }
 }
 
