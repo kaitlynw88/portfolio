@@ -1,8 +1,17 @@
 
 
-.projectSection .wrapper {
+.projectSection {
+    
+    .wrapper {
     position: relative;
     overflow: hidden;
+    background-color: #FFFDD0;
+    h2{
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+
 }
 
 .projectContainer {
@@ -48,7 +57,7 @@
 
 .project {
     width: 100%;
-    height: 500px;
+    height: 600px;
     flex: 1 0 100%;
     display:flex;
     align-items: center;
